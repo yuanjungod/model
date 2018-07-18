@@ -1,0 +1,15 @@
+test_iter: 403
+test_interval: 3000
+base_lr: 0.1
+display: 30
+max_iter: 909260
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 9.99999974738e-05
+stepsize: 36056
+snapshot: 30000
+snapshot_prefix: "snapshot"
+solver_mode: GPU
+net: "ResNet34-ImageDataLayer-tripletloss.prototxt"
+solver_type: SGD
